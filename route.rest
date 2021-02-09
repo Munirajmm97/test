@@ -1,0 +1,17 @@
+
+GET http://localhost:3000/alarms
+
+###
+
+
+POST http://localhost:3000/alarms
+Content-Type: application/json
+
+{
+    "name": "Munira",
+    "Sevirity": "Critical",
+    "desc":"This is a description",
+    "owner":"admin",
+    "Status":"ON"
+}
+
